@@ -347,7 +347,8 @@
     if (isAnswered) {
       return;
     }
-    isAnswered = true;
+    //正解を確認したいのでコメントアウト
+    //isAnswered = true;
 
     if (li.textContent === quizSet[currentNum].c[0]) {
       li.classList.add('correct');
