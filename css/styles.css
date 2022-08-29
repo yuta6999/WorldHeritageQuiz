@@ -101,3 +101,9 @@ body {
   display: block;
   text-decoration: none;
 }
+
+
+#memo {
+  width: 100%;
+  height: 200px;
+}
