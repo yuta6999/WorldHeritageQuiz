@@ -400,4 +400,13 @@
       setQuiz();
     }
   });
+
+  const memo = document.getElementById('memo');
+  
+  memo.textContent = localStorage.getItem('WorldHeritageMemo');
+  
+  memo.addEventListener('change', () => {
+    localStorage.setItem('WorldHeritageMemo', memo.value);
+  });
+
 }
